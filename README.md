@@ -1,4 +1,4 @@
-You can find the images used in the YAML file [here]([kodekloud/examplevotingapp](https://hub.docker.com/search?q=kodekloud)).
+You can find the images used in the YAML file [kodekloud/examplevotingapp](https://hub.docker.com/search?q=kodekloud).
 
 
 Commands to run pods.yaml and service.yaml.
