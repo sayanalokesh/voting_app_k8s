@@ -12,6 +12,7 @@ Commands to run pods.yaml and service.yaml.
 
 Commands to check the pods and service
 kubectl get pods,svc
+![image](https://github.com/sayanalokesh/voting_app_k8s/assets/105637305/ae32d38e-4719-4b10-bf40-da9c2adc7de7)
 
 
 ![image](https://github.com/sayanalokesh/voting_app_k8s/assets/105637305/40faa28b-8f63-4148-9cf9-ec94690a9a29)
