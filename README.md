@@ -1,3 +1,6 @@
+You can find the images used in the YAML file [here](kodekloud/examplevotingapp).
+
+
 Commands to run pods.yaml and service.yaml.
 
 1. kubectl create -f voting-app-pod.yaml
