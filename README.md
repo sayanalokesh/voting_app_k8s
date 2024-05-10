@@ -32,6 +32,14 @@ kubectl create -f postgress-service.yaml
 ```
 kubectl create -f worker-deployment.yaml
 ```
+commands to get the link to access
+```
+minikube service result-service --url
+minikube service voting-service --url
+```
+![image](https://github.com/sayanalokesh/voting_app_k8s/assets/105637305/460cfe35-4c5e-4995-a0cf-b6c1bb0c0cd6)
+![image](https://github.com/sayanalokesh/voting_app_k8s/assets/105637305/f21d8de6-405b-4e2a-9b70-263505ae5d15)
+
 Commands to check the deploymemnts and service
 ```
 kubectl get svc,deployments
