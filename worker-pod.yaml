@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: worker-app-pod
   labels:
-    name: worker-app-pod-app-pod
+    name: worker-app-pod
     app: demo-voting-app
 spec:
   containers:
