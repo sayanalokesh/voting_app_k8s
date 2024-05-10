@@ -2,7 +2,43 @@ You can click on the below links to check for the images used in the YAML file.
 1. [Worker](https://hub.docker.com/r/kodekloud/examplevotingapp_worker/tags)
 2. [Vote](https://hub.docker.com/r/kodekloud/examplevotingapp_vote/tags)
 3. [Result](https://hub.docker.com/r/kodekloud/examplevotingapp_result/tags)
+4. 
+Commands to run deployment.yaml and service.yaml.
+```
+kubectl create -f voting-app-deployment.yaml
 
+```
+```
+kubectl create -f voting-app-service.yaml
+```
+```
+kubectl create -f result-app-deployment.yaml
+```
+```
+kubectl create -f result-app-service.yaml
+```
+```
+kubectl create -f redis-deployment.yaml
+```
+```
+kubectl create -f redis-service.yaml
+```
+```
+kubectl create -f postgress-deployment.yaml
+```
+```
+kubectl create -f postgress-service.yaml
+```
+```
+kubectl create -f worker-deployment.yaml
+```
+Commands to check the deploymemnts and service
+```
+kubectl get svc,deployments
+```
+![image](https://github.com/sayanalokesh/voting_app_k8s/assets/105637305/0052c911-8658-42f4-bf53-dca8f3e8f828)
+![image](https://github.com/sayanalokesh/voting_app_k8s/assets/105637305/a2ff46fb-a297-42d0-80ec-5213f810c0e4)
+![image](https://github.com/sayanalokesh/voting_app_k8s/assets/105637305/83ace743-0936-42d4-b42a-27220a33e216)
 
 Commands to run pods.yaml and service.yaml.
 
